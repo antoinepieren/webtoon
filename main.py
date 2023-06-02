@@ -7,8 +7,10 @@ import discord # Discord python API
 import json # Used to safely store and recover personnal data that won't be shared on github
 from functions import * # Useful functions
 from time import sleep # Needed for timers
+
 import subprocess # Used to launch webtoon scraping at regular intervals
 import threading # Used to generate regular intervals
+import asyncio # Used to create an asynchronous loop to handle threads and subprocesses
 
 #_________________Settings____________________
 
@@ -34,6 +36,7 @@ class Main(discord.Client):
 	processes = [] # List of processes, used for launching the scraping program
 	threads = [] # List of threads, used here for the hour-long loop between scrapings
 	
+	#____________Bot commands______________
 	async def on_message(self,message):
 		if str(message.author) == botTag or message.guild != self.guild: # Safety condition
 			pass
@@ -46,7 +49,7 @@ class Main(discord.Client):
 				await client.close()
 
 			elif message.content == p+"toread":
-				answer = request("""SELECT names.main,chapter,link,last_out,last_read FROM (SELECT title,last_read FROM list WHERE last_out-last_read != 0 AND interest="READING" AND status="ONGOING") AS new JOIN chapters ON chapters.title = new.title JOIN names ON chapters.title = names.alt WHERE chapter-last_read > 0""") # THE sql request
+				answer = request("""SELECT names.main,chapter,link,last_out,last_read FROM (SELECT title,last_out,last_read FROM list WHERE last_out-last_read != 0 AND interest="READING" AND status="ONGOING") AS new JOIN chapters ON chapters.title = new.title JOIN names ON chapters.title = names.alt WHERE chapter-last_read > 0""") # THE sql request
 				# Removing Duplicates
 				chapterList = []
 				for tup in answer:
@@ -68,7 +71,7 @@ class Main(discord.Client):
 						await mes.add_reaction("\U0001F4D6") # "Open book" emoji
 						await mes.add_reaction("\U0001F61B") # "Prohibited" emoji
 
-	#___________Discord bot Initialisation_________
+	#______________Bot Initialisation____________
 	async def on_ready(self):
 		if self.startFlag: # Ensures initialisation is only executed once
 			self.startFlag = False
@@ -76,11 +79,14 @@ class Main(discord.Client):
 			self.guild = client.get_guild(guildId) # Your discord server
 			self.channel = self.guild.get_channel(channelId) # Main channel for the bot to write in
 			await self.channel.send("Bot online")
-			self.loop.create_task(self.process_loop())
-			print("Mise en ligne du bot OK")
-			process = subprocess.Popen(["python.exe", "webtoonscraping.py"])
+			print("Bot online")
+
+			self.loop.create_task(self.process_loop()) # Creating custom loop function that will take care of threads and processes
+			
+			process = subprocess.Popen(["python.exe", "webtoonscraping.py"]) # Starting a webscraping process
 			self.processes.append(("scraping",process,None))
-			thread = threading.Thread(target = lambda : sleep(3600))
+
+			thread = threading.Thread(target = lambda : sleep(3600)) # Starting a 1h long timer thread
 			thread.start()
 			self.threads.append(("loop",thread))
 	
@@ -98,7 +104,6 @@ class Main(discord.Client):
 				if int(chapter) > int(last_read): # Updating last_read
 					request(f"""UPDATE list SET last_read = {chapter} WHERE title = "{title}" """)
 				if int(chapter) < int(last_out): # Editing message if a new chapter has already been found for this webtoon
-					# TODO : upgrade the following line 'cause it always give errors 
 					next_out = request(f"""SELECT min(chapter),link FROM chapters WHERE title = "{title}" AND chapter > "{int(chapter)}" """)[0]
 					answer = request(f"""SELECT link FROM chapters WHERE title = "{title}" AND chapter="{int(chapter)+1}" """)[0][0]
 					#string = f"{title} Chapter {int(chapter)+1} : <{answer}>"
@@ -109,14 +114,54 @@ class Main(discord.Client):
 					await message.delete()
 		# TODO : Unauthorized emoji
 
+	#______Custom processes and threads processing loop______ (not a discord.py method)
+	async def process_loop(self):
+		while(1):
+			# Handling processes
+			if self.processes:
+				i = 0
+				while i < len(self.processes) :
+					name,process,channel = self.processes[i]
+					code = process.poll() # Checking if process is still running
+					if code != None :
+						#await self.general.send(f"Process {name} exited with exit code {code}")
+						if code == 0:
+							if name == "scraping":
+								print("scraping done")
+						else:
+							await self.general.send(f"Process {name} exited with exit code {code}")
+						del self.processes[i]
+					else:
+						i += 1
+			# Handling threads
+			if self.threads:
+				i = 0
+				while i < len(self.threads) :
+					name,thread = self.threads[i]
+					if not thread.is_alive() :
+						thread.join()
+						del self.threads[i]
+						if name == "loop":
+							thread = threading.Thread(target = lambda : sleep(3600)) # Starting next loop
+							thread.start()
+							self.threads.append(("loop",thread))
+							process = subprocess.Popen(["python.exe", "webtoonscraping.py"]) # Starting webscraping process
+							self.processes.append(("scraping",process,None))
+					else:
+						i += 1
+			await asyncio.sleep(1) # Letting time for other bot functions to execute
+
 #_______________Initialisation________________
 connect("webtoon.sqlite") #Connecting to sql database
 
+# The bot will try to connect to the internet 5 timesx
 counter = 1
 while counter < 5:
 	try:
 		client = Main(intents=intents)
 		client.run(token) # Starting Event Loop
+	except KeyboardInterrupt:
+		break
 	except:
 		del client
 		print(f"Connection failed, retrying in {10*counter} seconds")

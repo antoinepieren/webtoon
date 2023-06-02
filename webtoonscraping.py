@@ -40,7 +40,8 @@ wait = WebDriverWait(driver, delay)
 #_____________Asura Scans______________
 
 asuraList = []
-#Page loading
+# Page loading
+# TODO : Fix asurascans
 try:
 	driver.get("https://www.asurascans.com/")
 	sleep(5)
