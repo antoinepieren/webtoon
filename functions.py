@@ -62,22 +62,44 @@ def same(alt,main):
 	n = len(request("SELECT * FROM names")) +3
 	request(f"""INSERT INTO names VALUES ({n},"{main}","{alt}" """)
 
-#printl = lambda liste : #print('\n'.join([str(x) for x in liste]))
+async def send_long(channel,string):
+	for i in range(len(string)//2000 + 1):
+		await channel.send(string[2000*i:2000*(i+1)])
 
-#_______________Classes________________
+printl = lambda liste : print('\n'.join([str(x) for x in liste])) # Prints a list in a readable manner
+
+# Function that removes all the "char"s at the beginning and at the end of a "string"
+def charremove(char,string):
+	l = len(string)
+	i = 0
+	while string[i] == char:
+		if i == l-1:
+			return ""
+		i+=1
+	if string[-1] != char:
+		return string[i:]
+	j = -2
+	while string[j] == char:
+		j -= 1
+	return string[i:j+1]
+
+# Applying charremove to spaces
+spaceremove = lambda string:charremove(' ',string)
+
+#_______________Chapter class________________
 class Chapter:
 	def __init__(self,manwha,chaplink=None,manlink=None,chapter=None):
-		self.manwha = str(manwha) # Nom du manwha
-		self.manlink = str(manlink) # Lien où trouver le lien du chapitre
-		self.chaplink = str(chaplink) # Lien du dernier chapitre
-		self.chapter = str(chapter) # Nom du dernier chapitre
+		self.manwha = str(manwha) # Name of the webtoon
+		self.manlink = str(manlink) # Webtoon link (used when websites don't give the chapter link directly)
+		self.chaplink = str(chaplink) # Chapter link
+		self.chapter = str(chapter) # Chapter number
 	
 	def __repr__(self):
 		return " - ".join([self.manwha,str(self.chapter),self.manlink,self.chaplink])
 	
-	def __iter__(self):
+	def __iter__(self): # For turning a chapter in a tuple, used in webtoonscraping.py
 		yield str(self.manwha)
-		yield str(self.chapter)
+		yield int(self.chapter)
 	
 	def __eq__(self,other):
 		return isinstance(other,self.__class__) and str(other.chapter) == str(self.chapter) and str(self.manwha) == str(other.manwha)
@@ -96,7 +118,7 @@ class Chapter:
 		self.chapter = int(number)
 	
 	def values(self): #For the sql requests
-		return f"""("{self.manwha}",{int(self.chapter)},"{self.chaplink}")"""
+		return f"""\"{self.manwha}",{int(self.chapter)},"{self.chaplink}\""""
 	
 	def valid(self):
 		return all([x != "None" for x in [str(self.manwha),str(self.chaplink),str(self.chapter)]])

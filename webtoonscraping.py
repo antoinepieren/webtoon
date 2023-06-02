@@ -14,28 +14,30 @@ NUMBERS = list("0123456789") # Pretty useful list of numbers
 chapterList = [] # List that will contain all the chapters on all websites
 
 	
-service = Service(executable_path="geckodriver.exe") # TODO : test if necessary
-firoptions = webdriver.FirefoxOptions()
+service = Service(executable_path="geckodriver.exe") # Selenium firefox service object
+firoptions = webdriver.FirefoxOptions() # Webdriver options
 #firoptions.add_argument('--headless') # Unquote this line to let the program work in the background
+
 try:
-	driver = webdriver.Firefox(options=firoptions,service=service)#Connecting to the Internet
+	driver = webdriver.Firefox(options=firoptions,service=service) # Connecting to the Internet
 except:
 	file = open("credentials.json",'r')
 	data = json.load(file)
 	file.close()
 	if data["firefoxPath"] :
 		firoptions.binary_location = data["firefoxPath"]
-		driver = webdriver.Firefox(options=firoptions,service=service)#Connecting to the Internet
+		driver = webdriver.Firefox(options=firoptions,service=service) # Connecting to the Internet with custom Firefox path
 	else:
 		try:
 			firoptions.binary_location = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
-			driver = webdriver.Firefox(options=firoptions,service=service)#Connecting to the Internet
+			driver = webdriver.Firefox(options=firoptions,service=service) # Connecting to the Internet with usual Firefox path
 		except:
 			print("Firefox isn't correctly detected by the program, please fill the \"firefoxPath\" value of credentials.json with the path to the Firefox executable")
 wait = WebDriverWait(driver, delay)
 
+#______Scraping different websites_____
 
-#_____________Asura Scans______________21
+#_____________Asura Scans______________
 
 asuraList = []
 #Page loading
@@ -44,9 +46,6 @@ try:
 	sleep(5)
 	element_present = ec.presence_of_all_elements_located((By.XPATH, '//div[@class="bixbox"]'))
 	test = wait.until(element_present) # Waiting for page to load
-	#button = driver.find_element(By.XPATH, '//button[@class="fc-button fc-cta-consent fc-primary-button"]')
-	#button.click()
-	#sleep(1)
 	
 	try:
 		latest = driver.find_element(By.XPATH, '//div[@class="bixbox"]')
@@ -72,25 +71,10 @@ try:
 except:
 	pass
 
-'''
-#Finding chapter links
-for chapter in asuraList:
-	try:
-		driver.get(chapter.manlink)
-		element_present = ec.presence_of_all_elements_located((By.XPATH,'//ul[@class="clstyle"]'))
-		test = wait.until(element_present) # Waiting for page to load
-		ul = driver.find_element(By.XPATH,'//ul[@class="clstyle"]')
-		lilist = ul.find_elements(By.XPATH,'.//li')
-		li = lilist[funcsearch(lilist,lambda x:str(chapter.chapter) in str(x.get_attribute("data-num")))]
-		chapter.chaplink = li.find_element(By.XPATH,'.//a').get_attribute("href")
-	except:
-		#print(f"Error with {chapter}")
-		del chapter
-'''
-
 chapterList += asuraList
 
-#___________Reaper Scans_______________1
+#___________Reaper Scans_______________
+
 try:
 	driver.get("https://reaperscans.com/latest/comics")
 	element_present = ec.presence_of_all_elements_located((By.XPATH, '//div[@class="focus:outline-none"]'))
@@ -122,7 +106,7 @@ try:
 except:
 	pass
 
-#___________Flame Scans_______________1
+#___________Flame Scans_______________
 
 try:
 	driver.get("https://flamescans.org/")
@@ -152,7 +136,7 @@ try:
 except:
 	pass
 
-#___________Luminous Scans_______________21
+#____________Luminous Scans______________
 
 luminousList = []
 try:
@@ -189,7 +173,7 @@ except:
 
 chapterList += luminousList
 
-#___________Mm Scans_______________1
+#___________Mm Scans_______________
 
 try:
 	driver.get("https://mm-scans.org/")
@@ -275,53 +259,65 @@ try:
 except:
 	pass
 
-#_______________END____________________
+#__________Webscraping end_____________
 # Never forget to quit the driver at the end
 driver.close()
 
+#_______Sqlite database update_________
+
+# Removing incomplete chapters
 length = len(chapterList)
+printl(chapterList)
 i = 0
 while i < length:
 	if chapterList[i].valid():
 		i+=1
 	else:
 		del chapterList[i]
+		length-=1
 
-
+# Getting data from database
 connect("webtoon.sqlite")
 data = request("SELECT * FROM names")
-mains = [line[0] for line in data]
-alts = [line[1] for line in data]
+mains = [line[0] for line in data] # List of main names of webtoons
+alts = [line[1] for line in data] # List of alternative names of webtoons 
+chapterId = len(request("SELECT * FROM chapters")) # Number of chapters
+listId = len(request("SELECT * FROM list")) # Number of webtoons
+nameId = len(data) # Number of webtoon names
 
 
-#print("\n\nNew Manwhas\n")
-file = open("buffer","a")
+# Adding new webtoons
 length = len(chapterList)
 i = 0
 while i < length:
 	chapter = chapterList[i]
-	if chapter.manwha in alts:
-		chapter.manwha = listGet(chapter.manwha,alts,mains)
+	if chapter.manwha in alts: # Checking if the webtoon already exists
+		chapter.manwha = listGet(chapter.manwha,alts,mains) # Getting the webtoon's main name
 		i += 1
 	else:
-		if chapter.manwha != "":
-			file.write(str(chapter)+"\n")
-			#print(chapter)
-			request(f"""INSERT INTO list VALUES ("{chapter.manwha}","NOT CHECKED","ONGOING",{int(chapter.chapter)},0)""")
-			request(f"""INSERT INTO chapters VALUES ("{chapter.manwha}",{int(chapter.chapter)},"{chapter.chaplink}")""")
-			request(f"""INSERT INTO names VALUES ("{chapter.manwha}","{chapter.manwha}")""")
+		if chapter.manwha != "": # Sometimes there are empty manwha names
+			print(chapter)
+			request(f"""INSERT INTO list VALUES ({listId},"{chapter.manwha}","NOT CHECKED","ONGOING",{int(chapter.chapter)},0)""")
+			request(f"""INSERT INTO chapters VALUES ({chapterId},"{chapter.manwha}",{int(chapter.chapter)},"{chapter.chaplink}")""")
+			request(f"""INSERT INTO names VALUES ({nameId},"{chapter.manwha}","{chapter.manwha}")""")
+			listId += 1
+			chapterId += 1
+			nameId += 1
 		del chapterList[i]
 		length -= 1
-file.close()
 
-chapterList = unify(chapterList)
+chapterList = unify(chapterList) # Chapter unicity function
 
-chapters = [(chapter[0],chapter[1]) for chapter in request("SELECT * FROM chapters")]
+chapters = [(chapter[1],chapter[2]) for chapter in request("SELECT * FROM chapters")] # List of chapters, including those of new webtoons
+# Adding new chapters
 for chapter in chapterList:
 	if not isin(tuple(chapter),chapters):
 		print(chapter)
-		request(f"INSERT INTO chapters VALUES {chapter.values()}")
+		request(f"INSERT INTO chapters VALUES ({chapterId},{chapter.values()})")
+		chapterId += 1
+
+		# Changing last_out
 		last_out = request(f"""SELECT last_out FROM list WHERE title = "{chapter.manwha}" """)[0][0]
-		if last_out < int(chapter.chapter):
+		if last_out < int(chapter.chapter): 
 			request(f"""UPDATE list SET last_out = {int(chapter.chapter)}, status = "ONGOING" WHERE title = "{chapter.manwha}" """)
 	
