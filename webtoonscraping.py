@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.firefox.service import Service
 from sql import *
 from time import sleep,time
-import sys
+import json
 from functions import *
 
 delay = 3 # Delay for website to load
@@ -16,8 +16,22 @@ chapterList = [] # List that will contain all the chapters on all websites
 	
 service = Service(executable_path="geckodriver.exe") # TODO : test if necessary
 firoptions = webdriver.FirefoxOptions()
-#firoptions.headless = True # Unquote this line to let the program work in the background
-driver = webdriver.Firefox(options=firoptions,service=service)#Connecting to the Internet
+#firoptions.add_argument('--headless') # Unquote this line to let the program work in the background
+try:
+	driver = webdriver.Firefox(options=firoptions,service=service)#Connecting to the Internet
+except:
+	file = open("credentials.json",'r')
+	data = json.load(file)
+	file.close()
+	if data["firefoxPath"] :
+		firoptions.binary_location = data["firefoxPath"]
+		driver = webdriver.Firefox(options=firoptions,service=service)#Connecting to the Internet
+	else:
+		try:
+			firoptions.binary_location = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+			driver = webdriver.Firefox(options=firoptions,service=service)#Connecting to the Internet
+		except:
+			print("Firefox isn't correctly detected by the program, please fill the \"firefoxPath\" value of credentials.json with the path to the Firefox executable")
 wait = WebDriverWait(driver, delay)
 
 
@@ -274,7 +288,7 @@ while i < length:
 		del chapterList[i]
 
 
-connect("manwha.sqlite")
+connect("webtoon.sqlite")
 data = request("SELECT * FROM names")
 mains = [line[0] for line in data]
 alts = [line[1] for line in data]
