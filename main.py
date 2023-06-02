@@ -129,7 +129,7 @@ class Main(discord.Client):
 							if name == "scraping":
 								print("scraping done")
 						else:
-							await self.general.send(f"Process {name} exited with exit code {code}")
+							await channel.send(f"Process {name} exited with exit code {code}")
 						del self.processes[i]
 					else:
 						i += 1
