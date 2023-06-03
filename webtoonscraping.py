@@ -60,7 +60,7 @@ try:
 			manlink = div.find_element(By.XPATH,".//a").get_attribute("href")
 			chapter = div.find_element(By.XPATH,'.//li/a').text
 			chaplink = div.find_element(By.XPATH,'.//li/a').get_attribute("href")
-			chapter = Chapter(manwha,chapter=chapter,manlink=manlink)
+			chapter = Chapter(manwha,chapter=chapter,manlink=manlink,chaplink=chaplink)
 			print(chapter)
 			try:
 				chapter.numerise()

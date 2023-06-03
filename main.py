@@ -124,12 +124,11 @@ class Main(discord.Client):
 					name,process,channel = self.processes[i]
 					code = process.poll() # Checking if process is still running
 					if code != None :
-						#await self.general.send(f"Process {name} exited with exit code {code}")
 						if code == 0:
 							if name == "scraping":
 								print("\n**********************\nscraping done\n************************\n")
 						else:
-							await channel.send(f"Process {name} exited with exit code {code}")
+							await self.channel.send(f"Process {name} exited with exit code {code}")
 						del self.processes[i]
 					else:
 						i += 1
