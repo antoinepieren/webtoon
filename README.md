@@ -20,7 +20,9 @@ Select which webtoon you read by double-clicking on GUI.ps1
 You need python (3.11 or higher is preferable) and pip
 ## 1. Python librairies
 First of all, to make sure you've got all the librairies installed, run  
- `pip install -r requirements.txt`
+ `pip install -r requirements.txt`  
+
+// TODO : run pip with double click 
 
 ## 2. SQL database
 Then you can run ***init.py*** py double-clicking on ***init.ps1*** (only do so after you checked the contents of both files, don't trust everything you got from the internet)
