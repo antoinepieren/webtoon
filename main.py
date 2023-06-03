@@ -46,6 +46,7 @@ class Main(discord.Client):
 
 			elif message.content == p+"close": # Stops the bot
 				await message.channel.send("Bot offline")
+				print(("Bot offline"))
 				await client.close()
 
 			elif message.content == p+"toread":

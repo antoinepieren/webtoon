@@ -16,7 +16,7 @@ chapterList = [] # List that will contain all the chapters on all websites
 	
 service = Service(executable_path="geckodriver.exe") # Selenium firefox service object
 firoptions = webdriver.FirefoxOptions() # Webdriver options
-#firoptions.add_argument('--headless') # Unquote this line to let the program work in the background
+firoptions.add_argument('--headless') # Unquote this line to let the program work in the background
 
 try:
 	driver = webdriver.Firefox(options=firoptions,service=service) # Connecting to the Internet
@@ -175,7 +175,7 @@ except:
 chapterList += luminousList
 
 #___________Mm Scans_______________
-# TODO : consent button
+# TODO : Fix this shit but damn I hate it
 try:
 	driver.get("https://mm-scans.org/")
 	element_present = ec.presence_of_all_elements_located((By.XPATH, '//div[@class="page-item-detail"]'))

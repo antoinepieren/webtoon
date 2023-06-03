@@ -2890,3 +2890,1210 @@ Dynamically enable window occlusion 1
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1685793422834	geckodriver	INFO	Listening on 127.0.0.1:51214
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685793428954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51215" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileh5PMRS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685793429187	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685793429190	Marionette	INFO	Listening on port 51228
+WebDriver BiDi listening on ws://127.0.0.1:51215
+Read port: 51228
+1685793429435	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51215/devtools/browser/d038acb3-aca0-4369-bc94-977d835e62b8
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 3053 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685793435220	Marionette	INFO	Stopped listening on port 51228
+[Child 16156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685793451881	geckodriver	INFO	Listening on 127.0.0.1:51390
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685793458008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51391" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileYMNmJO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685793458231	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685793458234	Marionette	INFO	Listening on port 51404
+WebDriver BiDi listening on ws://127.0.0.1:51391
+Read port: 51404
+1685793458459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51391/devtools/browser/1cceac04-ffcc-4f5c-b53d-573625ddfd08
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6515 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 783 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 5824 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 7738 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6132 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685793465101	Marionette	INFO	Stopped listening on port 51404
+[Child 14480, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14480, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14480, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14480, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14480, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14480, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14480, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14480, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+1685793489125	geckodriver	INFO	Listening on 127.0.0.1:51558
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685793495256	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51559" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofile9y6HLS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685793495495	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685793495499	Marionette	INFO	Listening on port 51586
+Read port: 51586
+WebDriver BiDi listening on ws://127.0.0.1:51559
+1685793495634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51559/devtools/browser/de7bc138-024a-458b-b7f1-8bafd1a6d5f4
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 7224 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://youradexchange.com/n/display.php?r=6965230&atag=1&czid=bbe0bfm9kv&aggr=2&ppv=1, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+1685793503280	Marionette	INFO	Stopped listening on port 51586
+[Child 14956, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14956, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14956, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14956, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14956, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14956, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14956, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14956, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685793524322	geckodriver	INFO	Listening on 127.0.0.1:51699
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685793530454	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51700" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileZw40rJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685793530683	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685793530687	Marionette	INFO	Listening on port 51712
+WebDriver BiDi listening on ws://127.0.0.1:51700
+Read port: 51712
+1685793530914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51700/devtools/browser/978e51be-7397-4229-9774-da43663166bd
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 7362 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://youradexchange.com/n/display.php?r=6965230&atag=1&czid=bbe0bfm9kv&aggr=2&ppv=1, line 1: SyntaxError: unexpected token: ':'
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 5909 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+1685793539220	Marionette	INFO	Stopped listening on port 51712
+[Child 4940, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4940, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4940, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4940, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4940, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4940, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4940, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4940, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+[Parent 21184, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1685793566415	geckodriver	INFO	Listening on 127.0.0.1:51871
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685793572581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51872" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofile5SxJCf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685793572814	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685793572817	Marionette	INFO	Listening on port 51884
+WebDriver BiDi listening on ws://127.0.0.1:51872
+Read port: 51884
+1685793573040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51872/devtools/browser/14e8252b-e242-4ce7-9246-cd05fb41a7dc
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1685793578070	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://youradexchange.com/n/display.php?r=6965230&atag=1&czid=bbe0bfm9kv&aggr=2&ppv=1, line 1: SyntaxError: unexpected token: ':'
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 1581 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+1685793623867	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.61a04908e0bf.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.61a04908e0bf.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: chrome://browser/content/tabbrowser.js, line 6290: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+console.error: ({})
+JavaScript warning: https://filter.bid-engine.com/filter?q=home+mmscans+homepage&i=wOmHW-wJvo0_0&ci=-5036057723093863521&t=8865003&h=22, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+[Child 7844, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7844, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7844, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7844, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7844, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7844, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7844, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7844, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1685793645742	Marionette	INFO	Stopped listening on port 51884
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1685793654326	geckodriver	INFO	Listening on 127.0.0.1:52149
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685793667439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52150" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofilePUfpDZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685793667697	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685793667700	Marionette	INFO	Listening on port 52188
+Read port: 52188
+WebDriver BiDi listening on ws://127.0.0.1:52150
+1685793667830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52150/devtools/browser/f4b6e001-af99-4d5c-ad7b-c4079f8160b6
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6712 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 636 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 3843 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 1483 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://youradexchange.com/n/display.php?r=6965230&atag=1&czid=bbe0bfm9kv&aggr=2&ppv=1, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 529: debuggee 'https://mm-scans.org/wp-includes/js/jquery/jquery.min.js?ver=3.6.4:2' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+[Child 20216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1685793749839	Marionette	INFO	Stopped listening on port 52188
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1685793753698	geckodriver	INFO	Listening on 127.0.0.1:52464
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685793766155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileGlBdE3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685793766397	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685793766400	Marionette	INFO	Listening on port 52478
+WebDriver BiDi listening on ws://127.0.0.1:52465
+Read port: 52478
+1685793766590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52465/devtools/browser/cb38ad7f-3d80-4840-a5cf-3ddfe7dfeff9
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://youradexchange.com/n/display.php?r=6965230&atag=1&czid=bbe0bfm9kv&aggr=2&ppv=1, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 529: debuggee 'https://mm-scans.org/wp-includes/js/jquery/jquery.min.js?ver=3.6.4:2' would run
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2014: TypeError: currentPanel is undefined
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 529: debuggee 'https://mm-scans.org/wp-includes/js/jquery/jquery.min.js?ver=3.6.4:2' would run
+1685793999651	geckodriver	INFO	Listening on 127.0.0.1:50391
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685794005765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50392" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileFxc9wT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685794005989	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685794005992	Marionette	INFO	Listening on port 50431
+WebDriver BiDi listening on ws://127.0.0.1:50392
+Read port: 50431
+1685794006218	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50392/devtools/browser/ffe9440b-4191-4629-bd2f-5ac2c1f08b4e
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+1685794009840	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1685794010247	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1685794010380	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 5127 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 4985 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685794027664	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685794028706	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685794042181	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685794047801	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1685794047889	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1685794048705	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685794055943	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685794062338	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685794070448	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685794078366	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685794084903	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685794091418	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685794098132	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 7334 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685794109078	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://hb.vntsm.com/v3/live/ad-manager.min.js, line 2: unreachable code after return statement
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4987612965319070, line 79: TagError: adsbygoogle.push() error: Warning: Do not add multiple property codes with AdSense tag to avoid seeing unexpected behavior. These codes were found on the page ca-pub-1114210973959830, ca-pub-4987612965319070
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 79: TagError: adsbygoogle.push() error: Warning: Do not add multiple property codes with AdSense tag to avoid seeing unexpected behavior. These codes were found on the page ca-pub-1114210973959830, ca-pub-4987612965319070
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 1392 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://youradexchange.com/n/display.php?r=6965230&atag=1&czid=bbe0bfm9kv&aggr=2&ppv=1, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6864 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 53: unreachable code after return statement
+1685794136042	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://tag.escalated.io/?i=KxxajmhPPCsT&d=aquamanga.com&type=display&cust=8298&sid=direct&c=&cust2=direct, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 2815 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685794139862	Marionette	INFO	Stopped listening on port 50431
+[Child 25552, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25552, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25552, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25552, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25552, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25552, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25552, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25552, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685799265803	geckodriver	INFO	Listening on 127.0.0.1:52522
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685799271972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "525 ...  "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileE8awNW"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685799272215	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685799272218	Marionette	INFO	Listening on port 52535
+WebDriver BiDi listening on ws://127.0.0.1:52523
+1685799428390	geckodriver	INFO	Listening on 127.0.0.1:52604
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685799447879	geckodriver	INFO	Listening on 127.0.0.1:52626
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685799454046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "526 ...  "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofilerE5f5B"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685799454274	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685799454277	Marionette	INFO	Listening on port 52648
+WebDriver BiDi listening on ws://127.0.0.1:52627
+Read port: 52648
+1685799454467	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:52627/devtools/browser/86d8b251-3223-426e-a14a-1a3f5d8eb7b4
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 3602 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 1179 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685799462078	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 4784 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 1673 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6844 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685799480962	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685799484001	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685799485651	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685799488765	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685799496226	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685799502924	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685799509507	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685799516143	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685799523089	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685799529611	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685799536179	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685799542770	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6101 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685799554453	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://hb.vntsm.com/v3/live/ad-manager.min.js, line 2: unreachable code after return statement
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1114210973959830&host=ca-host-pub-2644536267352236, line 79: TagError: adsbygoogle.push() error: Warning: Do not add multiple property codes with AdSense tag to avoid seeing unexpected behavior. These codes were found on the page ca-pub-1114210973959830, ca-pub-4987612965319070
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1114210973959830, line 79: TagError: adsbygoogle.push() error: Warning: Do not add multiple property codes with AdSense tag to avoid seeing unexpected behavior. These codes were found on the page ca-pub-1114210973959830, ca-pub-4987612965319070
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 1815 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://ad4m.at/r62eglto.js, line 1: TypeError: t.purpose is undefined
+JavaScript error: https://ad4m.at/r62eglto.js, line 1: TypeError: t.purpose is undefined
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 4979 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6859 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 53: unreachable code after return statement
+1685799583331	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 5670 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685799585572	Marionette	INFO	Stopped listening on port 52648
+[Child 6248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1

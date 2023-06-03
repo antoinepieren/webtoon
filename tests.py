@@ -41,9 +41,16 @@ try:
 	driver.get("https://mm-scans.org/")
 	element_present = ec.presence_of_all_elements_located((By.XPATH, '//div[@class="page-item-detail"]'))
 	test = wait.until(element_present) # Waiting for page to load
-	input()
 	
-	
+	sleep(3)
+	button = driver.find_element(By.XPATH,'//button[@class="fc-button fc-cta-consent fc-primary-button"]')
+	button.click()
+	sleep(1)
+	driver.close()
+	sleep(1)
+	button = driver.find_element(By.XPATH,'//button[@class="fc-button fc-cta-consent fc-primary-button"]')
+	button.click()
+	sleep(1)
 	latest = driver.find_element(By.XPATH,'//div[@class="lastest-content"]')
 	try:
 		divList = latest.find_elements(By.XPATH, './/div[@class="page-item-detail"]') # Locating all new chapters

@@ -11,5 +11,9 @@ out, err = process.communicate()
 path = str(out)[2:-1].replace("\\r\\n","\n")[85:-3].replace("\\\\","\\") # Current directory
 startPath = "\\".join(path.split('\\')[:3]) + "\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup" # Startup programs directory
 file = open(startPath + "\\main.cmd", "w")
-file.write(f"START /B "" {path}\\main.ps1") # This will make the bot run at startup
+file.write(f"START /B \"\" {path}\\main.ps1") # This will make the bot run at startup
+file.close()
+file = open(path + "\\main.ps1", "w")
+file.write(f"cd {path}\n")
+file.write("python.exe main.py")
 file.close()
