@@ -50,7 +50,7 @@ try:
 	
 	try:
 		latest = driver.find_element(By.XPATH, '//div[@class="bixbox"]')
-		divList = driver.find_elements(By.XPATH, '//div[@class="luf"]') # Locating all new chapters
+		divList = latest.find_elements(By.XPATH, './/div[@class="luf"]') # Locating all new chapters
 		#Adding all chapters as Chapter class variables in chapterList
 		sleep(5)
 		for div in divList:
@@ -175,7 +175,7 @@ except:
 chapterList += luminousList
 
 #___________Mm Scans_______________
-
+# TODO : consent button
 try:
 	driver.get("https://mm-scans.org/")
 	element_present = ec.presence_of_all_elements_located((By.XPATH, '//div[@class="page-item-detail"]'))
@@ -268,7 +268,9 @@ driver.close()
 
 # Removing incomplete chapters
 length = len(chapterList)
+print(f"********************\n Printing chapterlist right after webscraping with length {length}\n********************************\n\n")
 printl(chapterList)
+sleep(1)
 i = 0
 while i < length:
 	if chapterList[i].valid():
@@ -280,13 +282,13 @@ while i < length:
 # Getting data from database
 connect("webtoon.sqlite")
 data = request("SELECT * FROM names")
-mains = [line[0] for line in data] # List of main names of webtoons
-alts = [line[1] for line in data] # List of alternative names of webtoons 
+mains = [line[1] for line in data] # List of main names of webtoons
+alts = [line[2] for line in data] # List of alternative names of webtoons 
 chapterId = len(request("SELECT * FROM chapters")) # Number of chapters
 listId = len(request("SELECT * FROM list")) # Number of webtoons
 nameId = len(data) # Number of webtoon names
 
-
+print(f"********************\n Printing chapters from new webtoons\n********************************\n\n")
 # Adding new webtoons
 length = len(chapterList)
 i = 0
@@ -308,9 +310,13 @@ while i < length:
 		length -= 1
 
 chapterList = unify(chapterList) # Chapter unicity function
+print(f"********************\n Printing chapterlist right after unify with length {len(chapterList)}\n********************************\n\n")
+printl(chapterList)
+sleep(1)
 
-chapters = [(chapter[1],chapter[2]) for chapter in request("SELECT * FROM chapters")] # List of chapters, including those of new webtoons
+chapters = [(chapter[1],int(chapter[2])) for chapter in request("SELECT * FROM chapters")] # List of chapters, including those of new webtoons
 # Adding new chapters
+print(f"********************\n Printing new chapters\n********************************\n\n")
 for chapter in chapterList:
 	if not isin(tuple(chapter),chapters):
 		print(chapter)
@@ -321,4 +327,3 @@ for chapter in chapterList:
 		last_out = request(f"""SELECT last_out FROM list WHERE title = "{chapter.manwha}" """)[0][0]
 		if last_out < int(chapter.chapter): 
 			request(f"""UPDATE list SET last_out = {int(chapter.chapter)}, status = "ONGOING" WHERE title = "{chapter.manwha}" """)
-	

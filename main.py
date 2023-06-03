@@ -159,6 +159,8 @@ while counter < 5:
 	try:
 		client = Main(intents=intents)
 		client.run(token) # Starting Event Loop
+		if not client.startFlag:
+			break # Exits the loop on successful login/logout
 	except KeyboardInterrupt:
 		break
 	except:

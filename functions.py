@@ -95,13 +95,13 @@ class Chapter:
 		self.chapter = str(chapter) # Chapter number
 	
 	def __repr__(self):
-		return " - ".join([self.manwha,str(self.chapter),self.manlink,self.chaplink])
+		return " ~ ".join([self.manwha,str(self.chapter),self.manlink,self.chaplink])
 	
 	def __iter__(self): # For turning a chapter in a tuple, used in webtoonscraping.py
 		yield str(self.manwha)
 		yield int(self.chapter)
 	
-	def __eq__(self,other):
+	def __eq__(self,other): # For comparing chapter between themselves, you just need to compare the webtoon name and the number of the chapter
 		return isinstance(other,self.__class__) and str(other.chapter) == str(self.chapter) and str(self.manwha) == str(other.manwha)
 	
 	def numerise(self): #To get a number out of a chapter name

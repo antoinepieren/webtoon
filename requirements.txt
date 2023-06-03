@@ -5,3 +5,6 @@ numpy
 math
 json
 discord
+threading
+subprocess
+asyncio

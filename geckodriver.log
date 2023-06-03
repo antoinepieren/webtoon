@@ -859,3 +859,1828 @@ JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/
 [Child 20340, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
 [Child 20340, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
 Dynamically enable window occlusion 1
+1685786410580	geckodriver	INFO	Listening on 127.0.0.1:55175
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685786416726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55176" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofilecOenM3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685786417059	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685786417064	Marionette	INFO	Listening on port 55189
+Read port: 55189
+WebDriver BiDi listening on ws://127.0.0.1:55176
+1685786417234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55176/devtools/browser/8372ce51-c4e5-4cff-b6de-90d6582f2d5c
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685786439460	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685786439684	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786442684	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786448953	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786455449	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786455653	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786461900	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786468241	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786474512	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786480815	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786487049	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685786497739	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 53: unreachable code after return statement
+1685786509019	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685786509981	Marionette	INFO	Stopped listening on port 55189
+[Child 20584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685786810803	geckodriver	INFO	Listening on 127.0.0.1:55659
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685786816905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55660" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileiPqG8a"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685786817154	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685786817160	Marionette	INFO	Listening on port 55725
+Read port: 55725
+WebDriver BiDi listening on ws://127.0.0.1:55660
+1685786817279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55660/devtools/browser/1dc070c3-3f55-4a15-b4dc-3a7abcabcc5e
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685786836656	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685786837084	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786840117	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786846857	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786853627	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786860054	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786866883	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786873603	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786880492	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786886995	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685786893562	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685786905856	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 53: unreachable code after return statement
+1685786914922	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685786916024	Marionette	INFO	Stopped listening on port 55725
+[Child 1884, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1884, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1884, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1884, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1884, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1884, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1884, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1884, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685787126290	geckodriver	INFO	Listening on 127.0.0.1:56422
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685787132420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56423" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileGG2lvN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685787132653	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685787132656	Marionette	INFO	Listening on port 56437
+WebDriver BiDi listening on ws://127.0.0.1:56423
+Read port: 56437
+1685787132849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:56423/devtools/browser/5d4611ec-62ae-4b6a-8134-dd7c40781e39
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685787151643	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685787152723	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787157308	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787163395	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787169658	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787175873	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787182043	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787188224	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787194384	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787200472	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787206724	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685787216955	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 53: unreachable code after return statement
+1685787227517	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685787228299	Marionette	INFO	Stopped listening on port 56437
+[Child 19476, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19476, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19476, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19476, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19476, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19476, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19476, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19476, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685787500869	geckodriver	INFO	Listening on 127.0.0.1:56695
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685787507040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56696" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofile0xxf92"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685787507301	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685787507304	Marionette	INFO	Listening on port 56710
+Read port: 56710
+WebDriver BiDi listening on ws://127.0.0.1:56696
+1685787507436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:56696/devtools/browser/da1b58b6-0783-4b38-9ff7-68d179c4782e
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685787527707	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685787528259	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787531594	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787537843	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787544113	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787544128	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787550189	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787556325	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787562455	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787568688	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685787574820	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685787585058	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 53: unreachable code after return statement
+1685787595925	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685787596752	Marionette	INFO	Stopped listening on port 56710
+[Child 14576, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14576, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14576, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14576, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14576, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14576, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14576, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14576, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685787876686	geckodriver	INFO	Listening on 127.0.0.1:57055
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685787882848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57056" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileC3okIl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685787883074	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685787883077	Marionette	INFO	Listening on port 57073
+WebDriver BiDi listening on ws://127.0.0.1:57056
+Read port: 57073
+1685787883301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57056/devtools/browser/2cbfeca5-8b4a-467d-b4df-704bf7ed2ddb
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+[Child 9588, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 9588, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 9588, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 9588, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 9588, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 9588, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 9588, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 9588, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1685788125199	Marionette	INFO	Stopped listening on port 57073
+Dynamically enable window occlusion 1
+[Parent 14524, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1685789140143	geckodriver	INFO	Listening on 127.0.0.1:58033
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685789146315	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58034" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileUGs59K"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685789146546	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685789146549	Marionette	INFO	Listening on port 58051
+WebDriver BiDi listening on ws://127.0.0.1:58034
+Read port: 58051
+1685789146738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:58034/devtools/browser/86802eb5-98a3-4a07-a667-3022b955211f
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685789230118	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685789230608	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789234025	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789240309	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789246345	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789246438	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789252826	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789259304	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789265473	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789271751	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789277852	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+[Parent 17420, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685789295310	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 53: unreachable code after return statement
+1685789305428	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685789306251	Marionette	INFO	Stopped listening on port 58051
+[Child 19596, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19596, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19596, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19596, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19596, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19596, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19596, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 19596, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685789926789	geckodriver	INFO	Listening on 127.0.0.1:58758
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685789932926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58759" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileTdJPOk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685789933244	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685789933250	Marionette	INFO	Listening on port 58778
+Read port: 58778
+WebDriver BiDi listening on ws://127.0.0.1:58759
+1685789933430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:58759/devtools/browser/ca624265-dd3e-4fdd-bdc9-3817a337d2ce
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685789955669	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685789957047	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789960254	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789966598	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789972943	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789979452	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789986548	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685789993099	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790000260	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790006633	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790013046	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685790024487	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 53: unreachable code after return statement
+1685790036855	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790037916	Marionette	INFO	Stopped listening on port 58778
+[Child 17248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 17248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 17248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 17248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 17248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 17248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 17248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 17248, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685790565626	geckodriver	INFO	Listening on 127.0.0.1:55889
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685790571801	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55890" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileAlOMLP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685790572032	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685790572036	Marionette	INFO	Listening on port 55907
+WebDriver BiDi listening on ws://127.0.0.1:55890
+Read port: 55907
+1685790572252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 414))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55890/devtools/browser/47f8073a-cf9c-4352-b1e9-51405353e284
+1685790573367	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790573470	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790573567	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790573641	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790573700	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790573753	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790573848	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790573891	Marionette	INFO	Stopped listening on port 55907
+[Child 8608, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8608, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8608, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8608, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8608, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8608, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8608, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8608, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1685790588562	geckodriver	INFO	Listening on 127.0.0.1:55922
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685790594733	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55923" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofilegNBFtX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685790594951	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685790594955	Marionette	INFO	Listening on port 55938
+Read port: 55938
+WebDriver BiDi listening on ws://127.0.0.1:55923
+1685790595072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 414))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55923/devtools/browser/ac3c5c48-fb9d-4baa-b9a1-9318fcc9b5ad
+1685790596355	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790596441	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790596506	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790596566	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790596666	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790596772	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 6696, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1685790596884	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790596936	Marionette	INFO	Stopped listening on port 55938
+[Child 14132, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14132, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14132, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14132, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14132, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14132, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14132, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14132, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1685790769771	geckodriver	INFO	Listening on 127.0.0.1:53363
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685790775927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53364" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileew3WbQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685790776156	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685790776160	Marionette	INFO	Listening on port 53378
+Read port: 53378
+WebDriver BiDi listening on ws://127.0.0.1:53364
+1685790776271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53364/devtools/browser/863dd88c-4cca-413b-bfa0-55289a8fb5f4
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+1685790780572	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 4620 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 5374 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6216 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 5464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685790803780	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685790816119	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790818679	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685790820153	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790826871	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790833542	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790840234	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790846739	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790853587	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685790860265	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790866842	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685790873371	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 2177 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685790884740	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://hb.vntsm.com/v3/live/ad-manager.min.js, line 2: unreachable code after return statement
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1114210973959830, line 79: TagError: adsbygoogle.push() error: Warning: Do not add multiple property codes with AdSense tag to avoid seeing unexpected behavior. These codes were found on the page ca-pub-1114210973959830, ca-pub-4987612965319070
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1114210973959830&host=ca-host-pub-2644536267352236, line 79: TagError: adsbygoogle.push() error: Warning: Do not add multiple property codes with AdSense tag to avoid seeing unexpected behavior. These codes were found on the page ca-pub-1114210973959830, ca-pub-4987612965319070
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 5945 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 139 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aquamanga.com/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 53: unreachable code after return statement
+1685790900672	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 4930 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685790902304	Marionette	INFO	Stopped listening on port 53378
+[Child 13600, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 13600, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 13600, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 13600, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 13600, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 13600, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 13600, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 13600, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1685791279781	geckodriver	INFO	Listening on 127.0.0.1:57759
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685791285966	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57760" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofile22PVZl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685791286188	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685791286192	Marionette	INFO	Listening on port 57774
+WebDriver BiDi listening on ws://127.0.0.1:57760
+Read port: 57774
+1685791286409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57760/devtools/browser/ff557cc4-1c7b-40de-bccd-36caeedd3c31
+JavaScript error: https://www.asurascans.com/, line 61: SyntaxError: invalid escape sequence
+1685791291182	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 5128 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6254 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 182 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cocosyeta.com/rpykQPi6LiJBYfBq/59267, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685791310345	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685791313091	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685791314602	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1685791314621	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685791317926	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685791324560	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685791331097	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685791337708	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685791344393	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685791350888	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685791357537	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685791364249	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1685791370883	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 2174 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://luminousscans.com/, line 555: TypeError: document.querySelector(...) is null
+JavaScript error: https://luminousscans.com/, line 1764: TypeError: document.querySelector(...) is null
+1685791382390	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://hb.vntsm.com/v3/live/ad-manager.min.js, line 2: unreachable code after return statement
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1114210973959830, line 79: TagError: adsbygoogle.push() error: Warning: Do not add multiple property codes with AdSense tag to avoid seeing unexpected behavior. These codes were found on the page ca-pub-1114210973959830, ca-pub-4987612965319070
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1114210973959830&host=ca-host-pub-2644536267352236, line 79: TagError: adsbygoogle.push() error: Warning: Do not add multiple property codes with AdSense tag to avoid seeing unexpected behavior. These codes were found on the page ca-pub-1114210973959830, ca-pub-4987612965319070
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6857 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://s.viidan.com/h/893/m3pusqpluv7fvlmgt34xes7c5clyuuddsss3jcot2pbfewcxlzbfiqaloyuxipourw5owra3g2xezjkc75bof63kqjz5zzcszbf3vy5dt2omlc6npkbesj5iin43wn7qq27nqqmbotp6zch5plihfbnq6g6kvnfwt2egzwskktrea4ivmt6vu3e2ifyxkyqnqjyhtkdsilxeln676neos5hr2d7fpzkbx2pxu4eyi64mvcxtn3qhc43rrbz4f6ga7zk2wswlowcussngjnb7gv5irc2oouotov2mantiinhgqrl5k53v62l3pvju6vltofxh65scmabxs3txmhzxk5fqgzujo4fxpcowljlhxfb262mtm2reb52cwj4mwovel6jv3glvojrsea7xph5hdkdkisyvxm2noh7wqtwykne6e5wj4ch66qsf4fyh3xejtnygrnhnn53eotdycnbqdudgei2p4smk5vnymtglzjp2w4f57q5pe4dz3bzpjvnpn3eesxo4ov5p3glorvabd3ikosgumqhuubgzemhauxnlts6jsxsajmsidieqggj2hnwgo3idpvkscmjhhq3qgfablfoakhjsamrrui2dhiwtyvkblb7c4mt5nvgcmqraa43tqnqdcydq6giwcv3akpqddeatklzacqnfa633nz5hgqlkaj4gc53ao5ae2uzihb4fq2ccfnmcectdfv7qgrkuf57weldsjm3qe5dnobscerkdk5keaqy2idyldbp4yov4dmutozc4vxuy2jhchumq6h5ecd6d4hpygoisqg34fdvvsg4zhl2knn6x7mcbkjbsanqhencxo53lhixfybqbkmoacvr7aiwuc5qqpbext75sqhuu43dcjjzex7wtkbsmjtlzlcmn7goijx2wfvcup5wfasyj3yfdb5ijwqzfn3ih6qpgodcdcnsq====?u=, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 18324, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeErro.\geckodriver.exe:JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+[Child 8856, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8856, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8856, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8856, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8856, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8856, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8856, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8856, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1685791828653	Marionette	INFO	Stopped listening on port 57774
+Dynamically enable window occlusion 1
+ach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685791756387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49406" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileTscJd6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685791756627	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685791756631	Marionette	INFO	Listening on port 49687
+Read port: 49687
+WebDriver BiDi listening on ws://127.0.0.1:49406
+1685791756779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49406/devtools/browser/73d2ebde-311a-475e-a55c-0fa481281155
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+1685791761632	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://youradexchange.com/n/display.php?r=6965230&atag=1&czid=bbe0bfm9kv&aggr=2&ppv=1, line 1: SyntaxError: unexpected token: ':'
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 6948 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+1685791782838	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://coupons.flightshotelsbook.com/jquery.min.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://coupons.flightshotelsbook.com/owlcarousel/owl.carousel.min.js, line 1: SyntaxError: expected expression, got '<'
+console.error: ({})
+JavaScript error: https://coupons.flightshotelsbook.com/?utm_source=Adcash&utm_medium=6965238_6965238, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+1685791817316	geckodriver	INFO	Listening on 127.0.0.1:49862
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685791823456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofileeF7eOp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685791823715	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685791823719	Marionette	INFO	Listening on port 49879
+Read port: 49879
+WebDriver BiDi listening on ws://127.0.0.1:49863
+1685791823847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49863/devtools/browser/1cd04b37-6702-40fa-8395-1e307edaaec4
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+console.error: ({})
+JavaScript error: https://youradexchange.com/n/display.php?r=6965230&atag=1&czid=bbe0bfm9kv&aggr=2&ppv=1, line 1: SyntaxError: unexpected token: ':'
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 5360 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+1685791932803	geckodriver	INFO	Listening on 127.0.0.1:50102
+.\geckodriver.exe: error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+geckodriver 0.33.0 (a80e5fd61076 2023-04-02 18:31 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1685791938961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Antoine\\AppData\\Local\\Temp\\rust_mozprofile81WMCz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685791939207	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685791939210	Marionette	INFO	Listening on port 50118
+WebDriver BiDi listening on ws://127.0.0.1:50103
+Read port: 50118
+1685791939409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50103/devtools/browser/600da5af-a32c-4fed-b3c0-eea70a52ad31
+JavaScript warning: https://haulstugging.com/rDvfd9mR582tjLuoW/64653, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mm-scans.org/wp-content/plugins/madara-core/assets/js/script.js?ver=1.7.1, line 54: unreachable code after return statement
+JavaScript warning: https://surfedlattins.com/fRusJZmBQSvAOKxH/65169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 7665 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 3943 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://youradexchange.com/n/display.php?r=6965230&atag=1&czid=bbe0bfm9kv&aggr=2&ppv=1, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://s.viidan.com/h/893/m3pesqpluv7fvlmgt34xes7c5clyuuddsss3jcot2pbfewcxlzbfiqaloyuxipmmqg5owra3hwxezjkc75bof63kqjz5zzcszbf3vy5dt2omlc6npkbesj5iin43wn7qq27nqqmbotp6zch5plihfbnq6g6kvnfwt2egzwskktrea4ivmt6vu3e2ifyxkyqnqjyhtkdsilxeln676neos5hr2d7fpzkbx2pxu4eyi64mvcxtn3qhc43rrbz4f6ga7zk2wswkowcussngjnb7gv7qqs2oouotov2mantlinhgqrl5k53vkzdzpjiugxd6pvxhy5kamabxqylu45dxbj3gfckhvecyu5a46te4louefbt7qrg2yxnnjlvv7x2fr5hi2r3worzeh53t2jizettmtnt2qt2z5fzgtwsnk7uep2mf6t5f4vxuij4znk6iobrpjl2wkjxwmraiieu4m7afg3qfpag4pprtpxwwjs7ufoplnkzha47qkkjyhfce6rjf75ddmdnjw4etjiidutqptbnfhyesjgcwbjvmy34itghmvg3w3msidieqggj2hnwgo3ikpvkscmjhhq3qgfablfoakhjsamrrui2dmj7xwbqzdn4demj7nvgcmqraa43tqnqdcydq6giwcv3akpqddeatklzacqnfa633nz5hgqlkaj4gc53ao5ae2uzien4fq2ccfnmcectdfv7qgrkuf57weldsjm3qe5dnobscerkdk5keaqy2idyldbp4yov4dmutozc4vxuy2jhchumq6h5ecd6d6xpygoisxxaivlvtsg4zhl2k3fqnxkfg5niguxt3ry6votjmem3qcbsydvor6fl5amuq6ka7pysdwbsylu3gavdyqs5l7fklmjxf6qtjxx6duuxb6zmf33hvqllgk77t4jgvissik2ednyalregpma5wze3qemqnhjtcqra=?u=, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+1685791967003	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EHMIEcXmxjhpa6ysVw94xheqxns9jQBWcUzwmgw4Ck0.js line 2 > eval line 695 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+JavaScript error: https://mm-scans.org/, line 1716: TypeError: queue is null
+[Child 22296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 22296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 22296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 22296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 22296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 22296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 22296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 22296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1685791978051	Marionette	INFO	Stopped listening on port 50118
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
