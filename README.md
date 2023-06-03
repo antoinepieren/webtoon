@@ -1,3 +1,13 @@
+# Features
+
+Once installed, the program will launch a Discord Bot at computer startup and search a few webtoon scanning websites for chapters every hour.
+
+When the bot is online, use the `!toread` commande to see what chapters you have to read.  
+
+Ping the bot with `!ping` and stop it with `!close`
+
+(WIP) Select which webtoon you read by double-clicking on GUI.ps1
+
 # Installation
 ## 1. Python librairies
 First of all, to make sure you've got all the librairies installed, run  
@@ -69,8 +79,12 @@ The second number is the id of your bot channel. Copy it and paste it in the "ch
   
 By default the commands of your bot start with a "!", but you can change in by changing the "prefix" property in credentials.json
 
+All the documentation on discord.py is available on https://discordpy.readthedocs.io/en/stable/api.html  
+
 ## Bonus 1 : Automate (WIP)
 ## Bonus 2 : Kustom Widget (WIP)
+
+## Bonus 3 : Kustom Widget (WIP)
 
 # How it works
 1. webscraping
@@ -79,17 +93,27 @@ By default the commands of your bot start with a "!", but you can change in by c
 # File description
 ## Python files
 main.py : main program that runs the Discord Bot  
+
 init.py : file to run before first use  
+
 sql.py : library to interact with sqlite databases using sqlite3 by *me*  
+
 webtoonscraping.py : file to run periodically which scraps the internet to find the chapters  
 
+
 ## Generated files  
-webtoon.sqlite : database with all your webtoon data
-main.ps1 : allows the bot to be launched on startup
-main.cmd : this file will be generated among your computer startup processes to run main.ps1 on startup. You can find the file by pressing *Windows+R* and then launching the command *shell:startup*
+webtoon.sqlite : database with all your webtoon data  
+
+main.ps1 : allows the bot to be launched on startup  
+
+main.cmd : this file will be generated among your computer startup processes to run main.ps1 on startup. You can find the file by pressing *Windows+R* and then launching the command *shell:startup*  
 
 ## Other files
 credentials.json : file to store your credentials for portability  
+
 init.ps1 : file that launches init.py with a double click  
+
 requirements.txt : python librairies used  
+
 geckodriver.exe : program that links python and Firefox  
+
