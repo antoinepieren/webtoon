@@ -15,6 +15,9 @@ Ping the bot with `!ping` and stop it with `!close`
 Select which webtoon you read by double-clicking on GUI.ps1  
 
 # Installation
+
+## 0. Minimum requirements
+You need python (3.11 or higher is preferable) and pip
 ## 1. Python librairies
 First of all, to make sure you've got all the librairies installed, run  
  `pip install -r requirements.txt`
