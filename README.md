@@ -4,9 +4,15 @@ Once installed, the program will launch a Discord Bot at computer startup and se
 
 When the bot is online, use the `!toread` commande to see what chapters you have to read.  
 
-Ping the bot with `!ping` and stop it with `!close`
+The parantheses indicate how many chapters you have missed and how many you have to read after the one listed.  
 
-(WIP) Select which webtoon you read by double-clicking on GUI.ps1
+Once you read a chapter listed by `!toread`, you can react with the book emoji to tell the program you have read it.  
+
+If there is a problem with the chapter, you can react with the no entry sign emoji to tell the program the chapter is invalid.  
+
+Ping the bot with `!ping` and stop it with `!close`  
+
+Select which webtoon you read by double-clicking on GUI.ps1  
 
 # Installation
 ## 1. Python librairies
@@ -100,6 +106,8 @@ sql.py : library to interact with sqlite databases using sqlite3 by *me*
 
 webtoonscraping.py : file to run periodically which scraps the internet to find the chapters  
 
+GUI.py : User interface to interact with the database
+
 
 ## Generated files  
 webtoon.sqlite : database with all your webtoon data  
@@ -112,6 +120,8 @@ main.cmd : this file will be generated among your computer startup processes to 
 credentials.json : file to store your credentials for portability  
 
 init.ps1 : file that launches init.py with a double click  
+
+GUI.ps1 : file that launches GUI.py with a double click  
 
 requirements.txt : python librairies used  
 

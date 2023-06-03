@@ -61,7 +61,7 @@ try:
 			chapter = div.find_element(By.XPATH,'.//li/a').text
 			chaplink = div.find_element(By.XPATH,'.//li/a').get_attribute("href")
 			chapter = Chapter(manwha,chapter=chapter,manlink=manlink,chaplink=chaplink)
-			print(chapter)
+			#print(chapter)
 			try:
 				chapter.numerise()
 				asuraList.append(chapter)
@@ -96,7 +96,7 @@ try:
 			chaplink = aList[1].get_attribute("href")
 			chapter = chaplink.split("-")[-1]
 			chapter = Chapter(manwha,chapter=chapter,manlink=manlink,chaplink=chaplink)
-			print(chapter)
+			#print(chapter)
 			try:
 				chapter.numerise()
 				chapterList.append(chapter)
@@ -126,7 +126,7 @@ try:
 			manlink = info.find_element(By.XPATH,".//a").get_attribute("href")
 			chaplink = chaps.find_element(By.XPATH,'.//a').get_attribute("href")
 			chapter = Chapter(manwha,chapter=chapter,manlink=manlink,chaplink=chaplink)
-			print(chapter)
+			#print(chapter)
 			try:
 				chapter.numerise()
 				chapterList.append(chapter)
@@ -158,7 +158,7 @@ try:
 			chapter = aList[1].text
 			chaplink = aList[1].get_attribute("href")
 			chapter = Chapter(manwha,chapter=chapter,manlink=manlink,chaplink=chaplink)
-			print(chapter)
+			#print(chapter)
 			try:
 				chapter.numerise()
 				luminousList.append(chapter)
@@ -194,7 +194,7 @@ try:
 			manlink = aList[0].get_attribute("href")
 			chaplink = aList[1].get_attribute("href")
 			chapter = Chapter(manwha,chapter=chapter,manlink=manlink,chaplink=chaplink)
-			print(chapter)
+			#print(chapter)
 			try:
 				chapter.numerise()
 				chapterList.append(chapter)
@@ -221,7 +221,7 @@ try:
 			chaplink = aList[1].get_attribute("href")
 			chapter = aList[1].find_element(By.XPATH,'.//div[@class="text-body-2 relative"]').text
 			chapter = Chapter(manwha,chapter=chapter,manlink=manlink,chaplink=chaplink)
-			print(chapter)
+			#print(chapter)
 			try:
 				chapter.numerise()
 				chapterList.append(chapter)
@@ -248,12 +248,12 @@ try:
 			chaplink = aList[1].get_attribute("href")
 			chapter = aList[1].text
 			chapter = Chapter(manwha,chapter=chapter,manlink=manlink,chaplink=chaplink)
-			print(chapter)
+			#print(chapter)
 			try:
 				chapter.numerise()
 				chapterList.append(chapter)
 			except:
-				print("num error")
+				#print("num error")
 				pass
 	except:
 		pass
@@ -268,8 +268,8 @@ driver.close()
 
 # Removing incomplete chapters
 length = len(chapterList)
-print(f"********************\n Printing chapterlist right after webscraping with length {length}\n********************************\n\n")
-printl(chapterList)
+#print(f"********************\n Printing chapterlist right after webscraping with length {length}\n********************************\n\n")
+#printl(chapterList)
 sleep(1)
 i = 0
 while i < length:
@@ -288,7 +288,7 @@ chapterId = len(request("SELECT * FROM chapters")) # Number of chapters
 listId = len(request("SELECT * FROM list")) # Number of webtoons
 nameId = len(data) # Number of webtoon names
 
-print(f"********************\n Printing chapters from new webtoons\n********************************\n\n")
+#print(f"********************\n Printing chapters from new webtoons\n********************************\n\n")
 # Adding new webtoons
 length = len(chapterList)
 i = 0
@@ -299,9 +299,9 @@ while i < length:
 		i += 1
 	else:
 		if chapter.manwha != "": # Sometimes there are empty manwha names
-			print(chapter)
+			#print(chapter)
 			request(f"""INSERT INTO list VALUES ({listId},"{chapter.manwha}","NOT CHECKED","ONGOING",{int(chapter.chapter)},0)""")
-			request(f"""INSERT INTO chapters VALUES ({chapterId},"{chapter.manwha}",{int(chapter.chapter)},"{chapter.chaplink}")""")
+			request(f"""INSERT INTO chapters VALUES ({chapterId},"{chapter.manwha}",{int(chapter.chapter)},"{chapter.chaplink}",1)""")
 			request(f"""INSERT INTO names VALUES ({nameId},"{chapter.manwha}","{chapter.manwha}")""")
 			listId += 1
 			chapterId += 1
@@ -310,17 +310,17 @@ while i < length:
 		length -= 1
 
 chapterList = unify(chapterList) # Chapter unicity function
-print(f"********************\n Printing chapterlist right after unify with length {len(chapterList)}\n********************************\n\n")
-printl(chapterList)
+#print(f"********************\n Printing chapterlist right after unify with length {len(chapterList)}\n********************************\n\n")
+#printl(chapterList)
 sleep(1)
 
-chapters = [(chapter[1],int(chapter[2])) for chapter in request("SELECT * FROM chapters")] # List of chapters, including those of new webtoons
+chapters = request("SELECT title,chapter FROM chapters") # List of chapters, including those of new webtoons
 # Adding new chapters
-print(f"********************\n Printing new chapters\n********************************\n\n")
+#print(f"********************\n Printing new chapters\n********************************\n\n")
 for chapter in chapterList:
 	if not isin(tuple(chapter),chapters):
-		print(chapter)
-		request(f"INSERT INTO chapters VALUES ({chapterId},{chapter.values()})")
+		#print(chapter)
+		request(f"INSERT INTO chapters VALUES ({chapterId},{chapter.values()},1)")
 		chapterId += 1
 
 		# Changing last_out

@@ -138,4 +138,7 @@ CREATE TABLE [IF NOT EXISTS] [schema_name].table_name (
 ) [WITHOUT ROWID];
 
 DROP TABLE (deletes a table)
+
+To get a list of all tables in the database :
+SELECT * FROM sqlite_schema 
 """

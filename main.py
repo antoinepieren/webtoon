@@ -46,11 +46,12 @@ class Main(discord.Client):
 
 			elif message.content == p+"close": # Stops the bot
 				await message.channel.send("Bot offline")
-				print(("Bot offline"))
+				[thread.join() for thread,name in self.threads]
+				print("Bot offline")
 				await client.close()
 
 			elif message.content == p+"toread":
-				answer = request("""SELECT names.main,chapter,link,last_out,last_read FROM (SELECT title,last_out,last_read FROM list WHERE last_out-last_read != 0 AND interest="READING" AND status="ONGOING") AS new JOIN chapters ON chapters.title = new.title JOIN names ON chapters.title = names.alt WHERE chapter-last_read > 0""") # THE sql request
+				answer = request("""SELECT names.main,chapter,link,last_out,last_read FROM (SELECT title,last_out,last_read FROM list WHERE last_out-last_read != 0 AND interest="READING" AND status="ONGOING") AS new JOIN chapters ON chapters.title = new.title JOIN names ON chapters.title = names.alt WHERE chapter-last_read > 0 AND valid = 1""") # THE sql request
 				# Removing Duplicates
 				chapterList = []
 				for tup in answer:
@@ -67,10 +68,10 @@ class Main(discord.Client):
 					
 					await message.channel.send(f"Here are the chapters you haven't read yet ({len(chapterList)})")
 					for chapter in chapterList :
-						string = f"{chapter[0]} Chapter {chapter[1]} : <{chapter[2]}> ({chapter[1] - chapter[4] + 1} {chapter[3] - chapter[4]})" # The <> are used to remove the automatic embed when sending a link in Discord, the rest is explained in the README.MD
+						string = f"{chapter[0]} Chapter {chapter[1]} : <{chapter[2]}> ({chapter[1] - chapter[4] - 1} {chapter[3] - chapter[1] + 1})" # The <> are used to remove the automatic embed when sending a link in Discord, the rest is explained in the README.MD
 						mes = await message.channel.send(string)
 						await mes.add_reaction("\U0001F4D6") # "Open book" emoji
-						await mes.add_reaction("\U0001F61B") # "Prohibited" emoji
+						await mes.add_reaction("\U0001F6AB") # "No entry sign" emoji
 
 	#______________Bot Initialisation____________
 	async def on_ready(self):
@@ -105,15 +106,30 @@ class Main(discord.Client):
 				if int(chapter) > int(last_read): # Updating last_read
 					request(f"""UPDATE list SET last_read = {chapter} WHERE title = "{title}" """)
 				if int(chapter) < int(last_out): # Editing message if a new chapter has already been found for this webtoon
-					next_out = request(f"""SELECT min(chapter),link FROM chapters WHERE title = "{title}" AND chapter > "{int(chapter)}" """)[0]
+					next_out = request(f"""SELECT min(chapter),link FROM chapters WHERE title = "{title}" AND chapter > "{int(chapter)}" AND valid=1""")[0]
 					answer = request(f"""SELECT link FROM chapters WHERE title = "{title}" AND chapter="{int(chapter)+1}" """)[0][0]
 					#string = f"{title} Chapter {int(chapter)+1} : <{answer}>"
-					string = f"{title} Chapter {next_out[0]} : <{next_out[1]}> ({int(next_out[0]) - int(chapter) + 1} {last_out - int(chapter)})"
+					string = f"{title} Chapter {next_out[0]} : <{next_out[1]}> ({int(next_out[0]) - int(chapter) - 1} {last_out - int(chapter) + 1})"
 					await message.edit(content = string)
 					await message.remove_reaction(payload.emoji,payload.member)
 				else:
 					await message.delete()
-		# TODO : Unauthorized emoji
+			if payload.emoji.name == "\U0001F6AB" : # No entry sign emoji
+				channel = self.guild.get_channel_or_thread(payload.channel_id)
+				message = await channel.fetch_message(payload.message_id)
+				liste = message.content.split("Chapter")
+				title = spaceremove(liste[0])
+				chapter = int(liste[1].split(":")[0])
+				link = message.content.split(" : ")[1].split("(")[0][1:-2]
+				request(f"UPDATE chapters SET valid=0 WHERE link=\"{link}\"")
+
+				latest = request(f"""SELECT chapter,link,last_out,last_read FROM chapters JOIN names ON chapters.title = names.alt JOIN list ON list.title = chapters.title WHERE list.title=\"{title}\" AND chapter-last_read > 0 AND valid = 1 ORDER BY chapters DESC""")
+				if len(latest) != 0 :
+					latest = latest[0]
+					string = f"{title} Chapter {latest[0]} : <{latest[1]}> ({latest[0] - latest[3] - 1} {latest[2] - latest[0] + 1})" # The <> are used to remove the automatic embed when sending a link in Discord, the rest is explained in the README.MD
+					await message.edit(content = string)
+				else:
+					await message.delete()
 
 	#______Custom processes and threads processing loop______ (not a discord.py method)
 	async def process_loop(self):
@@ -160,6 +176,7 @@ while counter < 5:
 	try:
 		client = Main(intents=intents)
 		client.run(token) # Starting Event Loop
+		print(client.startFlag)
 		if not client.startFlag:
 			break # Exits the loop on successful login/logout
 	except KeyboardInterrupt:
