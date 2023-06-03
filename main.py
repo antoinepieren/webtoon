@@ -127,7 +127,7 @@ class Main(discord.Client):
 						#await self.general.send(f"Process {name} exited with exit code {code}")
 						if code == 0:
 							if name == "scraping":
-								print("scraping done")
+								print("\n**********************\nscraping done\n************************\n")
 						else:
 							await channel.send(f"Process {name} exited with exit code {code}")
 						del self.processes[i]
