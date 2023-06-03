@@ -25,7 +25,7 @@ First of all, to make sure you've got all the librairies installed, run
 ## 2. SQL database
 Then you can run ***init.py*** py double-clicking on ***init.ps1*** (only do so after you checked the contents of both files, don't trust everything you got from the internet)
 
-This will create the webtoon.sqlite database
+This will create the webtoon.sqlite database and setup
 
 ## 3. Firefox
 The program uses firefox to find the chapters on the internet, so it has to be installed. If you have issues with firefox, find the path of the executable and paste it in the "firefoxPath" property in credentials.json

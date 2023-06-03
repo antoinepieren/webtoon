@@ -1,11 +1,5 @@
 selenium
-time
-sqlite3
 numpy
-math
-json
 discord
-threading
-subprocess
 asyncio
-tkinter
+tk
