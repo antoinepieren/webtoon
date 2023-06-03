@@ -20,6 +20,7 @@ class Main(Tk):
 		self.notebook = ttk.Notebook(self)
 		self.frames = {}
 
+		# TODO : add a 3rd frame with not checked
 		frame1 = Frame(self.notebook)
 		self.frames["Interest"] = frame1
 		self.notebook.add(frame1, text="Interest")

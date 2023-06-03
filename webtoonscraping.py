@@ -41,7 +41,6 @@ wait = WebDriverWait(driver, delay)
 
 asuraList = []
 # Page loading
-# TODO : Fix asurascans
 try:
 	driver.get("https://www.asurascans.com/")
 	sleep(5)
@@ -259,6 +258,32 @@ try:
 		pass
 except:
 	pass
+
+#____________Manga Gecko________________
+try:
+	driver.get("https://www.mangageko.com/jumbo/manga/")
+	element_present = ec.presence_of_all_elements_located((By.XPATH, '//div[@class="novel-item"]'))
+	test = wait.until(element_present) # Waiting for page to load
+	
+	try:
+		divList = driver.find_elements(By.XPATH, '//li[@class="novel-item]')
+		for div in divList:
+			manwha = div.find_element(By.XPATH,'.//h4').text
+			chapter = spaceremove(div.find_element(By.XPATH,'.//h5').text)
+			manlink = div.find_element(By.XPATH,'.//a').get_attribute("href")
+			chaplink = "https://www.mangageko.com/reader/en/" + manlink.split('/')[1] + "-chapter-" + chapter.split(" ")[1]
+			chapter = Chapter(manwha,chapter=chapter,manlink=manlink,chaplink=chaplink)
+			print(chapter)
+			try:
+				chapter.numerise()
+				chapterList.append(chapter)
+			except:
+				pass
+	except:
+		pass
+except:
+	pass
+
 
 #__________Webscraping end_____________
 # Never forget to quit the driver at the end

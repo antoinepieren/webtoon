@@ -30,7 +30,8 @@ Then you can run ***init.py*** py double-clicking on ***init.ps1*** (only do so 
 This will create the webtoon.sqlite database and setup
 
 ## 3. Firefox
-The program uses firefox to find the chapters on the internet, so it has to be installed. If you have issues with firefox, find the path of the executable and paste it in the "firefoxPath" property in credentials.json
+The program uses firefox to find the chapters on the internet, so it has to be installed. 
+If, once the installation is complete, the webscraping isn't working because of firefox, find the path of the executable and paste it in the "firefoxPath" property in credentials.json
 
 ## 4. Initializing the Discord bot
 If you never did this, it could take a while.  
@@ -38,9 +39,9 @@ If you never did this, it could take a while.
 In discord, go to User *Settings > App Settings > Advanced* and enable Developper mode.
 
 ### 2. Creating a private server
-I strongly recommend that you create a custom server for yourself with a bot or manwha channel so that others aren't bothered by the bot and can't do whatever they want with your app.
+I strongly recommend that you create a custom server for yourself with a bot or manwha channel so that others aren't bothered by the bot and can't do whatever they want with your app. If you don't know how, there is a + sign at the bottom of your sever list, click it and select "Create my own", then you can custom it however you like.
 ### 3. Creating a bot  
-Go to https://discord.com/developers.  
+Go to https://discord.com/developers in whichever browser you like.  
 
 On the top right corner, click on the "New application" button, this will create an "application" but not a bot directly.  
 
@@ -52,9 +53,9 @@ Here you can customize your bot name username and icon.
 
 When you are done with customisation, enter the bot name with its tag in the "botTag" property in credentials.json  
 
-Then click on reset token. You'll be prompted for a 2FA code.   
+Then click on reset token (and "Yes, do it"). If you have activated 2FA, you'll be prompted for a 2FA code.   
 
-Once you've entered it, click on "Copy" and paste the token the "token" property in credentials.json  
+Click on "Copy" and paste the token in the "token" property in credentials.json  
 
 In the "Privileged Gateway Intents" category, check all 3 checkboxes : Presence Intent, Server Member Intent and Message Content Intent.  
 
@@ -62,7 +63,7 @@ Then click on "Save Changes".
 
 ### 4. Inviting the bot  
 
-Still on the same web page, got to the left menu and click on "OAuth2" and then "URL Generator".  
+Still on the same web page, go to the left menu and click on "OAuth2" and then "URL Generator".  
 
 In the scopes table, check the "bot" scope column 2 line 6.  
 
@@ -73,6 +74,8 @@ Then scroll down and click on "Copy" in the bottom right corner.
 Finally open a new tab and paste the url you just copied.  
 
 You can now add the bot to your private server.  
+
+// TODO Server selection
 
 ### 5. Settings
 
@@ -94,8 +97,6 @@ All the documentation on discord.py is available on https://discordpy.readthedoc
 
 ## Bonus 1 : Automate (WIP)
 ## Bonus 2 : Kustom Widget (WIP)
-
-## Bonus 3 : Kustom Widget (WIP)
 
 # How it works
 1. webscraping
